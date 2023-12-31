@@ -152,6 +152,13 @@ footer {
   font-size: 20px;
 }
 
+.main-title h3 {
+  background: linear-gradient(90deg, #4CFF2E 0%, #FFC451 96.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .about-title,
 .experiance-title,
 .project-title,
@@ -162,6 +169,10 @@ footer {
 .explore-title {
   font-size: 20px !important;
   font-weight: 400;
+  background: linear-gradient(90deg, #4CFF2E 0%, #FFC451 96.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .experiance-section .sub-title span {
@@ -202,6 +213,10 @@ footer {
 
 .experiance-section .skill-section {
   margin: 0 calc(100% - 80%);
+}
+
+.skill-section .sub-button:hover {
+  cursor: not-allowed;
 }
 
 .firstpart .firstproject,
@@ -248,9 +263,9 @@ footer {
 }
 
 .sub-button:hover {
-  background-color: #ffffff;
   color: #000000;
   border: 1px solid #000000;
+  background: linear-gradient(90deg, #4CFF2E 0%, #FFC451 96.11%);
 }
 
 @media (max-width:430px) {
